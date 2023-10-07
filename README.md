@@ -1,1 +1,1 @@
-# simple-chating-app
+# django-chatting-app
