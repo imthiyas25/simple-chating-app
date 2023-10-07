@@ -9,8 +9,10 @@ Along with the chatting feature, all the recent messages is present on the same 
 
 open cmd or terminal and type the following commands to install Django Framework and run the webserver:
 
-pip install -r requirements.txt
+pip install -r requirements.txt 
+
 python manage.py runserver
+
 Step-3: Finally, open the browser and go to localhost:8000
 
 For admin panel:
