@@ -1,22 +1,35 @@
-# Simple-Chatting-App
-This is a simple web chatting application made using Python Django Framework and Rest API. It contains all the features of any chat app such as login, register functions and allows users to chat with anyone registered to the system.
+# 💬 Simple Chatting App  
 
-About System
+![GitHub Repo stars](https://img.shields.io/github/stars/imthiyas25/simple-chating-app?style=social)
+![GitHub forks](https://img.shields.io/github/forks/imthiyas25/simple-chating-app?style=social)
+![GitHub issues](https://img.shields.io/github/issues/imthiyas25/simple-chating-app)
+![GitHub license](https://img.shields.io/github/license/imthiyas25/simple-chating-app)
+![Built with Django](https://img.shields.io/badge/Built%20With-Django-blue)
 
-The system is built fully in Django Framework in back-end and HTML, CSS in front-end. It contains similar user interface as a messenger application where all registered users are listed and you can chat with anyone.
+## 🚀 Overview  
+**Simple Chatting App** is a real-time web chat application built using **Python Django Framework** and **REST API**.  
+It includes features like:  
+- 📝 **User authentication** – Register & login securely  
+- 💬 **Real-time messaging** – Chat with registered users  
+- 📜 **Message history** – Scroll through past conversations  
+- 🔧 **Admin panel** – Manage users and chats  
 
-Along with the chatting feature, all the recent messages is present on the same screen with scrollbar where user can scroll to see any previous messages with any other user. The web-chatting app also has a admin panel from where all the Chats and Users can be managed.
+## 🏗️ Tech Stack  
+| Technology | Description |
+|------------|------------|
+| **Python Django** | Backend framework |
+| **Django REST Framework** | API handling |
+| **SQLite** | Database |
+| **HTML, CSS, JavaScript** | Frontend |
+| **WebSockets** | Real-time messaging |
 
-open cmd or terminal and type the following commands to install Django Framework and run the webserver:
-
-pip install -r requirements.txt 
-
-python manage.py runserver
-
-Step-3: Finally, open the browser and go to localhost:8000
-
-For admin panel:
-
-username -> Admin
-
-password -> Chatting123
+## 📂 Project Structure  
+```bash
+/simple-chating-app
+│── chat/                  # Django chat app
+│── static/                # Static assets (CSS, JS)
+│── templates/chat/        # HTML templates
+│── db.sqlite3             # Database file
+│── manage.py              # Django management script
+│── requirements.txt       # Dependencies
+│── README.md              # Project documentation
